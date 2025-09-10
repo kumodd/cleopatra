@@ -77,7 +77,8 @@ class HomeView extends GetView<HomeController> {
               childAspectRatio: 1.2,
               children: [
                 _buildQuickAction(Icons.cleaning_services, "Book Cleaning", () {
-                  // controller.goToBooking();
+                  controller.goToBooking();
+                  // controller.toBooking();
                 }),
                 _buildQuickAction(Icons.event_note, "My Bookings", () {
                   showComingSoon("My Bookings");
@@ -120,7 +121,7 @@ class HomeView extends GetView<HomeController> {
               "Starting from \$17.25",
               Icons.home,
               () {
-                // controller.goToBooking(type: "Standard Cleaning");
+                controller.goToBooking(type: "Standard Cleaning");
               },
             ),
             _buildServiceCard(
@@ -128,7 +129,7 @@ class HomeView extends GetView<HomeController> {
               "Starting from \$23.50",
               Icons.apartment,
               () {
-                // controller.goToBooking(type: "Deep Cleaning");
+                controller.goToBooking(type: "Deep Cleaning");
               },
             ),
           ],

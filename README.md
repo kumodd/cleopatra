@@ -1,16 +1,22 @@
-# cleopatra
+---
 
-A new Flutter project.
+## 🛠️ Getting Started
 
-## Getting Started
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (latest stable)
+- Dart SDK
+- Android Studio / VS Code with Flutter extensions
 
-This project is a starting point for a Flutter application.
+### Installation
+```bash
+# Clone the repo
+git clone https://github.com/kumodd/cleopatra.git
 
-A few resources to get you started if this is your first Flutter project:
+# Go to project folder
+cd cleopatra
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Get dependencies
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Run the app
+flutter run
