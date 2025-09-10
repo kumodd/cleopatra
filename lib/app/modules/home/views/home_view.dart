@@ -99,7 +99,7 @@ class HomeView extends GetView<HomeController> {
               width: double.infinity,
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: Colors.green.shade100,
+                color: Colors.green.shade200,
                 borderRadius: BorderRadius.circular(12),
               ),
               child: const Text(

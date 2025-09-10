@@ -10,8 +10,6 @@ class ProfileView extends StatelessWidget {
   Widget build(BuildContext context) {
     final ThemeController themeController = Get.find();
 
-
-
     return Scaffold(
       appBar: AppBar(title: const Text("Profile")),
       body: ListView(
@@ -58,12 +56,6 @@ class ProfileView extends StatelessWidget {
             title: const Text("Payment Methods"),
             trailing: const Icon(Icons.arrow_forward_ios, size: 16),
             onTap: () => showComingSoon("Payment Methods"),
-          ),
-          ListTile(
-            leading: const Icon(Icons.notifications),
-            title: const Text("Notifications"),
-            trailing: const Icon(Icons.arrow_forward_ios, size: 16),
-            onTap: () => showComingSoon("Notifications"),
           ),
 
           const Divider(),
